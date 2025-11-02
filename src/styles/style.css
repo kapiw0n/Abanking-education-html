@@ -1,0 +1,402 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+button{
+  cursor: pointer;
+}
+
+body{
+  width: 1440px;
+  height: 2510px;
+  background-color: #1E252B;
+}
+
+header {
+    margin: 26px 105px 104px 111px;
+    width: 1224px;
+    height: 48px;
+}
+
+.header_nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.logo_img{
+  margin-top: 3px 0 2px 12px;
+  width: 38px;
+  height: 38px;
+}
+
+.logo_name{
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.nav_buttons{
+  display: flex;
+  padding: 0;
+  list-style: none;
+  width: 431px;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.nav_buttons a{
+  font-weight: 500;
+  text-decoration: none;
+  opacity: 55%;
+}
+
+.categories{
+  display: flex;
+  gap: 4px;
+  justify-content: space-between;
+}
+
+.arr_down{
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
+}
+
+.auth{
+  display: flex;
+  gap: 41px;
+}
+
+.login{
+  margin: 12px 0 12px 0;
+  font-weight: 600;
+  opacity: 78%;
+  border: none;
+  background: none;
+}
+
+.signup{
+  font-weight: 600;
+  width: 118px;
+  height: 48px;
+  background-color: #FF6E30;
+  border-radius: 8px;
+  border: none;
+}
+
+.illustration{
+  margin-left: 740px;
+  margin-top: 58px;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.introduce{
+  margin-top: 104px;
+  margin-left: 111px;
+  width: 600px;
+  height: 354px;
+}
+
+.introduce_text1{
+  padding: 0;
+  font-weight: 500px;
+  font-size: 50px;
+  line-height: 140%;
+}
+
+.introduce_dot{
+  font-weight: 500px;
+  font-size: 50px;
+  line-height: 140%;
+  color: #FF6E30;
+}
+
+.introduce_text2{
+  margin: 30px 113px 60px 0;
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 30px;
+  opacity: 55%;
+}
+
+.introduce_search{
+  width: 497.66px;
+  height: 64px;
+  display: flex;
+  position: relative;
+}
+
+.introduce_search button{
+  position: absolute;
+  margin: 8px 11px 8px 356px ;
+  width: 130.43px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  background-color: #FF6E30;
+  font-weight: 600px;
+  font-size: 16px;
+}
+
+.introduce_search input{
+  width: 497.66px;
+  height: 64px;
+  padding-left: 55px;
+  border-radius: 15px;
+  background-color: #283036;
+  background: 
+        linear-gradient(#283036, #283036) padding-box,
+        linear-gradient(to right, #FFFFFF1A, #FFFFFF00) border-box;
+  border: 2px solid transparent
+}
+
+.seacrh_img{
+  display: flex;
+  position: absolute;
+  margin: 20px 455px 20px 18px;
+  width: 24px;
+  height: 24px;
+}
+
+.social_buttons{
+  margin: 110px 410px 0 111px;
+  display: block;
+  width: 190px;
+  height: 58px; 
+}
+
+.social_buttons_list{
+  justify-content: space-between;
+  display: flex;
+  list-style: none;
+}
+
+.tools{
+  width: 455px;
+  height: 147px;
+  margin: 200px 489px 0 493px;
+}
+
+.tools_info1{
+  font-weight: 500px;
+  font-size: 48px;
+  line-height: 130%;
+}
+
+.tools_info2{
+  margin: 25px 14px 0 14px;
+  font-weight: 500px;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  opacity: 55%;
+}
+
+.first-row{
+  margin: 90px 108px 100px 108px;
+  display: flex;
+  gap: 25px; 
+  justify-content: center; 
+}
+
+.second_row{
+  margin-bottom: 100px;
+  display: flex;
+  gap: 25px; 
+  justify-content: center; 
+}
+
+.figma_card, .sketch_card, .vsCode_card, .notion_card, .slack_card, .invision_card{
+  width: 392px;
+  height: 294px;
+  background-image: url('../img/nothover_card.png');
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.figma_text, .sketch_text, .vsCode_text, .notion_text, .slack_text, .invision_text{
+  width: 326px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  opacity: 55%;
+  margin: 30px 33px 37px 33px;
+}
+
+.figma_like, .sketch_like, .vsCode_like, .notion_like, .slack_like, .invision_like {
+  width: 28px;
+  height: 28px;
+  margin: 0 24px 40px 40px;
+  background-image: url('../img/like.png');
+  transition: transform 0.2s ease;
+  appearance: none; 
+  cursor: pointer;
+}
+
+.figma_like:checked, .sketch_like:checked, .vsCode_like:checked, 
+.notion_like:checked, .slack_like:checked, .invision_like:checked {
+  background-image: url('../img/like_active.png');
+  transform: scale(1.1);
+}
+
+.figma_like:active, .sketch_like:active, .vsCode_like:active,
+.notion_like:active, .slack_like:active, .invision_like:active {
+  background-image: url('img/like_filled.png');
+  transform: scale(0.95);
+}
+
+.figma_add, .sketch_add, .vsCode_add, .notion_add, .slack_add, .invision_add {
+  width: 28px;
+  height: 28px;
+  margin: 0 130px 40px 0;
+  cursor: pointer;
+}
+
+.figma_visit, .sketch_visit, .vsCode_visit, .notion_visit, .slack_visit, .invision_visit {
+  width: 106px;
+  height: 42px;
+  border-radius: 8px;
+  margin: -7px 33px 33px 0;
+  position: absolute;
+  background: none;
+  opacity: 55%;
+  font-weight: 600px;
+  font-size: 16px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.figma_card:hover, .sketch_card:hover, .vsCode_card:hover, 
+.notion_card:hover, .slack_card:hover, .invision_card:hover {
+  transform: translateY(-20px); 
+  background-image: url('../img/hover_card.png');
+}
+
+.figma_card:hover .figma_visit, .sketch_card:hover .sketch_visit,
+.vsCode_card:hover .vsCode_visit, .notion_card:hover .notion_visit,
+.slack_card:hover .slack_visit, .invision_card:hover .invision_visit {
+  background-color: #FF6E30;
+  opacity: 100%;
+}
+
+.figma_logo{
+  width: 170px;
+  height: 66px;
+  margin: 33px 189px 0 33px;
+}
+
+.sketch_logo{
+  width: 194px;
+  height: 66px;
+  margin: 33px 189px 0 33px;
+}
+
+.vsCode_logo{
+  width: 323px;
+  height: 66px;
+  margin: 33px 189px 0 33px;
+}
+
+.notion_logo{
+  width: 195px;
+  height: 66px;
+  margin: 33px 189px 0 33px;
+}
+
+.slack_logo{
+  width: 195px;
+  height: 66px;
+  margin: 33px 189px 0 33px;
+}
+
+.invision_logo{
+  width: 195px;
+  height: 66px;
+  margin: 33px 189px 0 33px;
+}
+
+.load_more{
+  width: 184px;
+  height: 64px;
+  border-radius: 8px;
+  background: none;
+  border-color:#FFFFFF1A;
+  border-width: 1px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FF6E30;
+  margin: 0 628px 200px 628px;
+}
+
+footer{
+  width: 1224px;
+  height: 253px;
+  margin: 200px 108px 48px 108px;
+}
+
+.footer_container{
+  display: flex; 
+  position: absolute;
+}
+
+.footer_text{
+  position: absolute;
+  margin: 55px 429px 162px 428px;
+  width: 367px;
+  height: 36px;
+  font-weight: 500px;
+  font-size: 24px;
+  line-height: 100%;
+  opacity: 80%;
+}
+
+.microsoft{
+  position: absolute;
+  width: 193px;
+  height: 42px;
+  margin:151px 949px 60px 82px;
+
+}
+
+.google{
+  position: absolute;
+  width: 157px;
+  height: 51px;
+  margin: 146px 685px 56px 382px;
+}
+
+.slack{
+  position: absolute;
+  width: 194px;
+  height: 49px;
+  margin: 147px 384px 57px 646px;
+}
+
+.wordpress{
+  position: absolute;
+  width: 194px;
+  height: 44px;
+  margin: 150px 83px 59px 947px;
+}
